@@ -1,74 +1,284 @@
 .body {
     width: 1440px;
     height: 3568px;
-
 }
 
 .container {
+    font-family: open Sans;
     width: 1440px;
     height: 100px;
     margin-left: auto;
     margin-right: auto;
-    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(135, 184, 168); */
+}
+
+.container nav {
+    width: 1440px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.container nav img {
+    width: 127px;
+    height: 35px;
+    margin-left: 150px;
+}
+
+.container nav button.login {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 700;
+    width: 87px;
+    height: 44px;
+    margin-left: 800px;
+    border: 1px solid #5E50A1;
+    border-radius: 5px;
+    color: #5E50A1;
+    background-color: white;
+
+}
+
+.container nav button.signup {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 700;
+    width: 87px;
+    height: 44px;
+    margin-left: 15px;
+    border: 1px solid #5E50A1;
+    border-radius: 5px;
+    color: white;
+    background-color: #5E50A1;
+
+}
+
+.container section {
+    width: 1140px;
+    height: 618px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    /* background-color: rgb(118, 231, 123); */
+}
+
+.container section img {
+    width: 570px;
+    height: 618px;
+}
+
+.container section div.item1 {
+    width: 570px;
+    height: 618px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container section div.item1 h1 {
+    font-family: Open Sans;
+    font-size: 44px;
+    font-weight: 600;
+    padding-top: 100px;
+
+}
+
+.container section div.item1 h2 {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.container section div.item1 button {
+    width: 210px;
+    height: 63.11px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+    color: white;
+    background-color: #5E50A1;
+    margin-top: 50px;
+
+}
+
+.container section div.item2 {
+    width: 570px;
+    height: 618px;
+}
+
+.container section div.item2 h1 {
+    font-family: Open Sans;
+    font-size: 36px;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+
+
+
+.container section div.item2 p {
+    width: 285px;
+    height: auto;
+}
+
+.container section div.item2 p img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+
+}
+
+
+
+
+
+
+.container section div.item3 {
+    width: 570px;
+    height: 618px;
+}
+
+.container section div.item3 h1 {
+    font-family: Open Sans;
+    font-size: 36px;
+    font-weight: 600;
+    padding-top: 50px;
+}
+
+.container section div.item3 h2 {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+
+
+.container section div.item3 div.skill {
+    width: 570px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.container section div.item3 div.skill p {
+    width: 285px;
+    height: auto;
+}
+
+.container section div.item3 div.skill p img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+
+}
+
+.container section div.opinion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.container div.opinion h1 {
+    font-family: Open Sans;
+    font-size: 36px;
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.container div.opinion div.people-opinion {
+    width: 1140px;
+    height: 437px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: aliceblue; */
+    box-sizing: border-box;
+    justify-content: space-between;
 }
-    .box {
+
+.container div.opinion div.people-opinion div.item {
+    width: 339px;
+    height: 437px;
+    padding-top: 30px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(235, 245, 245);
+}
+
+.container div.opinion div.people-opinion div.item img{
     width: 120px;
-    height: auto;
-    border: 1px solid blue;
-    padding: 10px;
-    }
-    .satu {
-    /* order: 2; */
-    flex: 1;
-    }
-    .dua {
-    /* order: 1; */
-    flex-direction: row;
-    flex: 1;
-    }
-    .tiga {
-    /* order: 3; */
-    flex: 1;
+    height: 120px;
 }
 
-.login {
-    width: 87px;
-    height: 44px;
-    background-color: #f0f0f0; 
-    border: 2px solid #5E50A1; 
-    line-height: 40px;
-    border-radius: 3px;
-    font-style: open sans;
-    text-align: center; 
-    font-weight: bold;
-    color: #5E50A1;
-    transition: background-color 0.3s;
-}
-    
-.login:hover {
+
+
+
+
+
+
+
+
+
+
+.container footer {
+    width: 1440px;
+    height: 401px;
+    margin-top: 100px;
     background-color: #5E50A1;
+}
+
+.container footer img {
+    width: 178px;
+    height: 50px;
+    padding-top: 50px;
+    padding-left: 150px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.container footer h2 {
+    width: 381px;
+    height: 84px;
+    top: 1541px;
+    padding-left: 150px;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: white;
+
+}
+
+.container footer .copyright {
+    width: 1150px;
+    height: 100px;
+    margin-left: 150px;
+    margin-top: 90px;
+    display: flex;
+    border-top: 3px white solid;
+    align-items: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
     color: white;
 }
 
-.signup{
-    width: 87px;
-    height: 44px;
-    background-color: #f0f0f0; 
-    border: 2px solid #5E50A1; 
-    line-height: 40px;
-    border-radius: 3px;
-    font-style: open sans;
-    text-align: center; 
-    font-weight: bold;
-    color: #5E50A1;
-    transition: background-color 0.3s; 
-}
-    
-.signup:hover {
-    background-color: #5E50A1;
-    color: white;
+.container footer .copyright a2 {
+    margin-left: 685px;
 }
 
+.container footer .copyright a3 {
+    margin-left: 70px;
+}

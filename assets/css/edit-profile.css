@@ -50,7 +50,7 @@
 .container section.profile-section {
     width: 1440px;
     height: auto;
-    background: linear-gradient(to bottom, #5E50A1 50%, rgb(165, 169, 173) 50%);
+    background: linear-gradient(to bottom, #5E50A1 50%, rgb(255, 255, 255) 50%);
     display: flex;
 }
 
@@ -63,7 +63,7 @@
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 100px;
-    background-color: #FFFFFF;
+    background-color: #fff1f1;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
@@ -505,6 +505,7 @@
     width: 1440px;
     height: 401px;
     background-color: #5E50A1;
+    margin-top: 100px;
 }
 
 .container footer img {

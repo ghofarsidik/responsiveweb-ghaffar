@@ -1,0 +1,343 @@
+.container {
+    width: 1440px;
+    height: 1792px;
+    /* background-color: rgb(165, 169, 173); */
+    margin: auto auto;
+}
+
+.container header {
+    width: 1440px;
+    height: 100px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+
+.container header .home-logo {
+    width: 127px;
+    height: 35px;
+    margin-left: 10%;
+    flex: 3;
+    /* background-color: chartreuse; */
+}
+
+.container header .notif-profile {
+    width: auto;
+    height: 32px;
+    display: flex;
+    flex: 0.7;
+    justify-content: space-around;
+    /* background-color: chocolate; */
+    margin-right: 8%;
+    box-sizing: border-box;
+}
+
+.container header .notif-profile img.bell {
+    width: 24px;
+    height: 24px;
+}
+
+.container header .notif-profile img.mail {
+    width: 24px;
+    height: 24px;
+}
+
+.container header .notif-profile img.profile {
+    width: 32px;
+    height: 32px;
+}
+
+.container section.profile-section {
+    width: 1440px;
+    height: auto;
+    background: linear-gradient(to bottom, #5E50A1 50%, rgb(165, 169, 173) 50%);
+    display: flex;
+}
+
+.container section.profile-section div.biodata {
+    width: 357px;
+    height: auto;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    margin-left: 150px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 100px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container section.profile-section div.biodata img {
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container section.profile-section div.biodata h2 {
+    font-family: Open Sans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 56px;
+    text-align: left;
+    color: #000000;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.container section.profile-section div.biodata h3 {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #000000;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.container section.profile-section div.biodata h4 {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #9EA0A5;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.container section.profile-section div.biodata h4 img {
+    width: 16px;
+    height: 16px;
+    padding: 0px;
+    margin-top: 0;
+}
+
+.container section.profile-section div.biodata h5 {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #9EA0A5;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.container section.profile-section div.biodata h6 {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #9EA0A5;
+    margin: 10px 0;
+
+}
+
+.container section.profile-section div.biodata button {
+    width: 297px;
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #5E50A1;
+    color: #FFFFFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.container section.profile-section div.biodata h7 {
+    font-family: Open Sans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+}
+
+.container section.profile-section div.biodata div.skill {
+    width: 297;
+    height: auto;
+
+    display: flex;
+    justify-items: space-between;
+    flex-wrap: wrap;
+}
+
+.container section.profile-section div.biodata div.skill a {
+    width: auto;
+    height: 28px;
+    padding: 0 20px;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background: #FBB01799;
+    color: #FFFFFF;
+    border-radius: 4px;
+    border: 1px solid #FBB017
+}
+
+
+
+
+
+.container section.profile-section div.portofolio {
+    width: 753px;
+    height: 500px;
+    margin-top: 70px;
+    margin-left: 30px;
+    padding-top: 15px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+
+.container section.profile-section div.portofolio div.switch {
+    width: 689px;
+    height: 56px;
+    display: flex;
+}
+
+.container section.profile-section div.portofolio div.switch div.portofolio-switch {
+    font-family: Open Sans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 56px;
+    text-align: center;
+    margin-left: 32px;
+    border-bottom: 5px solid #5E50A1;
+
+}
+
+.container section.profile-section div.portofolio div.switch div.experience-switch {
+    font-family: Open Sans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 56px;
+    text-align: center;
+    margin-left: 40px;
+    color: #9EA0A5;
+}
+
+.container section.profile-section div.portofolio div.content {
+    width: 753px;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    /* background-color: aquamarine; */
+
+}
+
+.container section.profile-section div.portofolio div.content div.item img {
+    width: 219px;
+    height: 148px;
+}
+
+.container section.profile-section div.portofolio div.content div.item p {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container footer {
+    width: 1440px;
+    height: 401px;
+    background-color: #5E50A1;
+}
+
+.container footer img {
+    width: 178px;
+    height: 50px;
+    padding-top: 50px;
+    padding-left: 150px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.container footer h2 {
+    width: 381px;
+    height: 84px;
+    top: 1541px;
+    padding-left: 150px;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: white;
+
+}
+
+.container footer .copyright {
+    width: 1150px;
+    height: 100px;
+    margin-left: 150px;
+    margin-top: 90px;
+    display: flex;
+    border-top: 3px white solid;
+    align-items: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+}
+
+.container footer .copyright a2 {
+    margin-left: 685px;
+}
+
+.container footer .copyright a3 {
+    margin-left: 70px;
+}

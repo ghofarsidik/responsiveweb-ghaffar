@@ -1,0 +1,554 @@
+.container {
+    width: 1440px;
+    height: 1792px;
+    /* background-color: rgb(165, 169, 173); */
+    margin: auto auto;
+}
+
+.container header {
+    width: 1440px;
+    height: 100px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+
+.container header .home-logo {
+    width: 127px;
+    height: 35px;
+    margin-left: 10%;
+    flex: 3;
+    /* background-color: chartreuse; */
+}
+
+.container header .notif-profile {
+    width: auto;
+    height: 32px;
+    display: flex;
+    flex: 0.7;
+    justify-content: space-around;
+    /* background-color: chocolate; */
+    margin-right: 8%;
+    box-sizing: border-box;
+}
+
+.container header .notif-profile img.bell {
+    width: 24px;
+    height: 24px;
+}
+
+.container header .notif-profile img.mail {
+    width: 24px;
+    height: 24px;
+}
+
+.container header .notif-profile img.profile {
+    width: 32px;
+    height: 32px;
+}
+
+.container section.profile-section {
+    width: 1440px;
+    height: auto;
+    background: linear-gradient(to bottom, #5E50A1 50%, rgb(165, 169, 173) 50%);
+    display: flex;
+}
+
+.container section.profile-section div.biodata {
+    width: 357px;
+    height: auto;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    margin-left: 150px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 100px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container section.profile-section div.biodata img {
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container section.profile-section div.biodata h2 {
+    font-family: Open Sans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 56px;
+    text-align: left;
+    color: #000000;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.container section.profile-section div.biodata h3 {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #000000;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.container section.profile-section div.biodata h4 {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #9EA0A5;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.container section.profile-section div.biodata h4 img {
+    width: 16px;
+    height: 16px;
+    padding: 0px;
+    margin-top: 0;
+}
+
+.container section.profile-section div.biodata h5 {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #9EA0A5;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.container section.profile-section div.biodata button {
+    width: 297px;
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #5E50A1;
+    color: #FFFFFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.container div.flex-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.container section.profile-section div.edit-form {
+    width: 753px;
+    height: autp;
+    margin-top: 70px;
+    margin-left: 30px;
+    padding-top: 15px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+
+}
+
+.container section.profile-section div.edit-form div.switch {
+    width: 689px;
+    height: 56px;
+    display: flex;
+    border-bottom: 2px solid black;
+}
+
+.container section.profile-section div.edit-form div.switch div.form-switch {
+    font-family: Open Sans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 56px;
+    text-align: center;
+    margin-left: 32px;
+
+}
+
+.container section.profile-section div.edit-form div.content {
+    width: 753px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    background-color: #FFFFFF;
+
+    /* background-color: aquamarine; */
+}
+
+.container section.profile-section div.edit-form div.content p {
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    color: #9EA0A5;
+    padding-left: 32px;
+    margin-bottom: 5px;
+}
+
+.container section.profile-section div.edit-form div.content input {
+    width: 693px;
+    height: 50px;
+    padding-left: 15px;
+    margin-left: 32px;
+    margin-bottom: 30px;
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.container section.profile-section div.edit-form div.content textarea {
+    width: 693px;
+    height: 144px;
+    padding-left: 15px;
+    margin-left: 32px;
+    margin-bottom: 30px;
+    rows: "4";
+    cols: "50";
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.container section.profile-section div.edit-form-skill {
+    width: 753px;
+    height: autp;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding-top: 15px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+
+}
+
+.container section.profile-section div.edit-form-skill div.switch {
+    width: 689px;
+    height: 56px;
+    display: flex;
+    border-bottom: 2px solid black;
+}
+
+.container section.profile-section div.edit-form-skill div.switch div.form-switch {
+    font-family: Open Sans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 56px;
+    text-align: center;
+    margin-left: 32px;
+
+}
+
+.container section.profile-section div.edit-form-skill div.content {
+    width: 753px;
+    height: auto;
+    display: flex;
+    margin-top: 30px;
+    background-color: #FFFFFF;
+
+    /* background-color: aquamarine; */
+}
+
+.container section.profile-section div.edit-form-skill div.content button {
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 30px;
+    text-align: center;
+    width: 80px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: #FBB017;
+
+}
+
+.container section.profile-section div.edit-form-skill div.content input {
+    width: 583px;
+    height: 50px;
+    padding-left: 15px;
+    margin-left: 32px;
+    margin-bottom: 30px;
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.container section.profile-section div.edit-form-exp {
+    width: 753px;
+    height: autp;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding-top: 15px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+
+}
+
+.container section.profile-section div.edit-form-exp div.switch {
+    width: 689px;
+    height: 56px;
+    display: flex;
+    border-bottom: 2px solid black;
+}
+
+.container section.profile-section div.edit-form-exp div.switch div.form-switch {
+    font-family: Open Sans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 56px;
+    text-align: center;
+    margin-left: 32px;
+
+}
+
+.container section.profile-section div.edit-form-exp div.content {
+    width: 753px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    background-color: #FFFFFF;
+
+    /* background-color: aquamarine; */
+}
+
+.container section.profile-section div.edit-form-exp div.content p {
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    color: #9EA0A5;
+    padding-left: 32px;
+    margin-bottom: 5px;
+}
+
+.container section.profile-section div.edit-form-exp div.content input {
+    width: 693px;
+    height: 50px;
+    padding-left: 15px;
+    margin-left: 32px;
+    margin-bottom: 30px;
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.container section.profile-section div.edit-form-exp div.content div.form2 {
+    display: flex;
+    margin-left: 12px;
+}
+
+.container section.profile-section div.edit-form-exp div.content div.form2 input {
+    width: 327px;
+    height: 50px;
+    padding-left: 15px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.container section.profile-section div.edit-form-exp div.content textarea {
+    width: 693px;
+    height: 144px;
+    padding-left: 15px;
+    margin-left: 32px;
+    margin-bottom: 30px;
+    rows: "4";
+    cols: "50";
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.container section.profile-section div.edit-form-exp div.content button {
+    width: 710px;
+    height: 50px;
+    border-radius: 4px;
+    margin-left: 32px;
+    margin-bottom: 30px;
+    background-color: #FFFFFF;
+    border: 1px solid #FBB017;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    color: #FBB017;
+
+}
+
+
+.container section.profile-section div.edit-form-portofolio {
+    width: 753px;
+    height: autp;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    padding-top: 15px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+
+}
+
+.container section.profile-section div.edit-form-portofolio div.switch {
+    width: 689px;
+    height: 56px;
+    display: flex;
+    border-bottom: 2px solid black;
+}
+
+.container section.profile-section div.edit-form-portofolio div.switch div.form-switch {
+    font-family: Open Sans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 56px;
+    text-align: center;
+    margin-left: 32px;
+
+}
+
+.container section.profile-section div.edit-form-portofolio div.content {
+    width: 753px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    background-color: #FFFFFF;
+
+    /* background-color: aquamarine; */
+}
+
+.container section.profile-section div.edit-form-portofolio div.content p {
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    color: #9EA0A5;
+    padding-left: 32px;
+    margin-bottom: 5px;
+}
+
+.container section.profile-section div.edit-form-portofolio div.content input {
+    width: 693px;
+    height: 50px;
+    padding-left: 15px;
+    margin-left: 32px;
+    margin-bottom: 30px;
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.container section.profile-section div.edit-form-portofolio div.content img {
+    width: 693px;
+    height: 348px;
+    margin-left: 32px;
+    margin-bottom: 40px;
+}
+
+.container section.profile-section div.edit-form-portofolio div.content button {
+    width: 693px;
+    height: 50px;
+    border-radius: 4px;
+    margin-left: 32px;
+    margin-bottom: 30px;
+    background-color: #FFFFFF;
+    border: 1px solid #FBB017;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    color: #FBB017;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container footer {
+    width: 1440px;
+    height: 401px;
+    background-color: #5E50A1;
+}
+
+.container footer img {
+    width: 178px;
+    height: 50px;
+    padding-top: 50px;
+    padding-left: 150px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.container footer h2 {
+    width: 381px;
+    height: 84px;
+    top: 1541px;
+    padding-left: 150px;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: white;
+
+}
+
+.container footer .copyright {
+    width: 1150px;
+    height: 100px;
+    margin-left: 150px;
+    margin-top: 90px;
+    display: flex;
+    border-top: 3px white solid;
+    align-items: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+}
+
+.container footer .copyright a2 {
+    margin-left: 685px;
+}
+
+.container footer .copyright a3 {
+    margin-left: 70px;
+}
